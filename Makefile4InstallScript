@@ -41,7 +41,7 @@ CXXFLAG_WRN=-Wall -Wextra -Wno-sign-compare -Wno-unused-local-typedefs -Wno-depr
 LIB_FLAGS=-lm -lgsl -lgslcblas -lpthread -lcurl
 LIB_FILES=install/lib/libgsl.a install/lib/libgslcblas.a install/lib/libboost_program_options.a install/lib/libboost_iostreams.a install/lib/libRmath.a install/lib/libhts.a install/lib/libz.a install/lib/libbz2.a install/lib/liblzma.a 
 #INCLUDE DIRS
-IFLAG=-Ilib/OTools -isystem lib
+IFLAG=-Ilib/OTools -isystem lib -Iinstall/include -Iinstall/include/htslib/
 
 #FILE LISTS
 BFILE=bin/QTLtools
